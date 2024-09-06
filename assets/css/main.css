@@ -51,9 +51,9 @@ table {
 	border-spacing: 0;
 }
 
-body {
+/* body {
 	-webkit-text-size-adjust: none;
-}
+} */
 
 mark {
 	background-color: transparent;
@@ -2031,6 +2031,14 @@ input, select, textarea {
 				.wrapper.style4 form select:focus,
 				.wrapper.style4 form textarea:focus {
 					background: #252525;
+				}
+				.wrapper.style5 {
+					background-image: none;
+					background-color: #fff;
+					text-align: left;
+				}
+				.wrapper.style5 h1 {
+					text-align: center;
 				}
 
 /* Nav */
